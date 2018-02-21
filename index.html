@@ -9,7 +9,49 @@
 		<h1>Form</h1>
 			<form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
 				<fieldset>
-					<legend>My Info</legend>
+					<div>
+						<legend>My Info</legend>
+						<label>
+							First Name: 
+							<input type= "text" name= "first_name_field" placeholder= "First Name">
+						</label>
+					</div>
+					<div>
+						<label>
+							Last Name: 
+							<input type= "text" name= "last_name_field" placeholder= "Last Name">
+						</label>
+					</div>
+					<div>
+						<label>
+							Phone Number: 
+							<input type= "text" name= "phone_field" placeholder= "(123) 123-1234">
+						</label>
+					</div>
+					<div>
+						<label>
+							Email: 
+							<input type= "text" name= "email_field" placeholder= "youraddress@here.com">
+						</label>
+					</div>
+					<div>
+						<label> 
+							<input type= "radio" name= "gender_field" value="Male">Male
+						</label>
+						<label>
+							<input type= "radio" name= "gender_field" value="Female">Female
+						</label>
+					</div>
+					<div>
+						<select name="age_field">
+							<option value="Under 18">Under 18</option>
+							<option value="18-24">18-24</option>
+							<option value="25-34">25-34</option>
+							<option value="45-54">45-54</option>
+							<option value="55-64">55-64</option>
+							<option value="65 and up">65 and up</option>
+						</select>
+					</div>
 				</fieldset>
 	</body>
 			
